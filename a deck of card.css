@@ -1,0 +1,91 @@
+*{    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    font-size: 3em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: violet;
+}
+.box:nth-child(1){
+    background: orange;
+}
+.box:nth-child(2){
+    background: rebeccapurple;
+}
+.box:nth-child(3){
+    background: red;
+}
+.box:nth-child(4){
+    background: black;
+}
+.box:nth-child(5){
+    background: blue;
+}
+.box:nth-child(6){
+    background: yellow;
+}
+.box:nth-child(7){
+    background: yellowgreen;
+}
+.box:nth-child(8){
+    background: #222;
+}
+.box:nth-child(9){
+    background: #556;
+}
+.box:nth-child(10){
+    background: #565656;
+}
+.box:nth-child(11){
+    background: rgb(48, 85, 34);
+    background-image: url(card/ultra-instinct.jfif);
+}
+.box:nth-child(12){
+    background: olive;
+    background-image: url(card/abdullateef.jfif);
+}
+.box:nth-child(13){
+    background: palevioletred
+}
+.box:nth-child(14){
+    background: #434;
+}
+.box:nth-child(15){
+    background: rgb(51, 68, 52);
+}
+.box:nth-child(16){
+    background: rgb(68, 66, 51);
+}
+.box:nth-child(17){
+    background: rgb(56, 51, 68);
+}
+.box:nth-child(18){
+    background: turquoise;
+}
+.box:nth-child(19){
+    background: tomato;
+}
+.box:nth-child(20){
+    background: rgb(98, 37, 98);
+        animation-name: changec;
+}

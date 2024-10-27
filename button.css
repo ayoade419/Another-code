@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+}
+#button{
+    padding: 8px 15px;
+    background: transparent;
+    border: 1px dotted rgb(55, 0, 255);
+    color: blue;
+    border-radius: 20px;
+    cursor: grab;
+}
+#box{
+    width: 150px;
+    height: 40px;
+    background-color: darkblue;
+    color: white;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#box:hover{
+    border: 1px solid blue;
+    background-color: transparent;
+    color: blue;
+    /* background-color: darkmagenta; */
+}
+/* #box:active{ */
+    /* background-color: gold; */
+/* } */
+/* #box:focus{ */
+    /* background-color: maroon; */
+/* } */

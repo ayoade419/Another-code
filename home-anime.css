@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+}
+
+.road {
+    width: 50%;
+    height: 200px;
+    position: absolute;
+    background-color: black;
+    position: relative;
+    margin-left: 20%;
+    margin-top: 25%;
+    border-radius: 80px;
+}
+
+.car {
+    width: 60px;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+    margin-top: 70px;
+    border-radius: 5px;
+    animation: moveCar 5s  infinite;
+}
+
+@keyframes moveCar {
+    0% {
+        left: -50px;
+    }
+    100% {
+        left: 89%;
+    }
+}
+.line{
+    height: 10px;
+    width: 90px;
+
+}

@@ -1,0 +1,72 @@
+.card{
+    width: 400px;
+    height: 500px;
+    background-color: yellow;
+    border-radius: 60px;
+    box-shadow: 0 10px rgba(0,0,0,1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	flex-direction: column;
+	background-image: url(card/ultra-instinct.jfif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+.b-circle{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 15px;
+    margin-left: 360px;
+    margin-top: 120px;
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 15px;
+    margin-left: 360px;
+    margin-top: 100px;
+}
+.vegeta{
+    margin-left: 170px;
+    margin-top: 100px;
+}
+.card img{
+    width: 100px;
+	height: 100px;
+	/*position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);*/
+}
+.card h1{
+    color: white;
+    font-size: 1em;
+	font-weight: 600;
+}
+.card img:active{
+    height: 300px;
+    width: 300px;
+    border-radius: 100px;
+    margin-bottom: 30px;
+}
+.button{
+    height: 50px;
+    width: 90px;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    border: solid 2px;
+    border-color: black;
+    border-radius: 20px;
+}
+.button:hover{
+    border: 1px solid blue;
+    background-color: transparent;
+    color: blue;
+    /* background-color: darkmagenta; */
+}
